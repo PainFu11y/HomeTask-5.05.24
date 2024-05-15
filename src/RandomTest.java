@@ -5,7 +5,6 @@ public class RandomTest {
         ArrayList<Integer> arrayList = new ArrayList<>();
         LinkedList<Integer> linkedList = new LinkedList<>();
         Set<Integer> set = new HashSet<>();
-        Random random = new Random();
         function(set);
         function(arrayList);
         function(linkedList);
