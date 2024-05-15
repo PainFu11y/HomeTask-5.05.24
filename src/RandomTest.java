@@ -14,8 +14,7 @@ public class RandomTest {
     public static void function(Collection<Integer> o){
         Random random = new Random();
         for (int i = 0; i < 500000; i++) {
-            int randNum = random.nextInt();
-            o.add(randNum);
+            o.add(random.nextInt());
         }
         long start = System.currentTimeMillis();
         Iterator<Integer> iterator = o.iterator();
